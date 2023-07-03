@@ -33,7 +33,7 @@ form {
   display: flex;
   flex-direction: row;
 }
-section form div input[type="text"] {
+section form div input[type="textarea"] {
   border: 2px solid rgba(212, 211, 211, 0.3);
   background: #f8f8f8;
   width: 756px;
@@ -52,6 +52,8 @@ input[type="submit"] {
   height: 59px;
   flex-shrink: 0;
   background: #5968f4;
+  border: none;
+  color: white;
 }
 .head {
   margin-top: 57px;
@@ -67,15 +69,27 @@ input[type="submit"] {
   margin-bottom: 74px;
 }
 .circle {
+  /* width: 68px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 68px;
+  background: #5968f4;
+  display: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon1 {
+  /* padding: 20%; */
   width: 68px;
   height: 68px;
   flex-shrink: 0;
   border-radius: 68px;
   background: #5968f4;
-  display: relative;
-}
-.icon1 {
-  padding: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section h1 {
   color: #4e4d54;
@@ -93,7 +107,7 @@ section p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  width: 200px;
+  /* width: 200px; */
   margin-top: 8px;
 }
 article {
