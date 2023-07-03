@@ -23,6 +23,43 @@ header div {
   width: 360px;
   height: 105px;
 }
+span {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  flex-direction: row;
+}
+section form div input[type="text"] {
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+  width: 756px;
+  height: 298px;
+  flex-shrink: 0;
+}
+section form span input[type="text"] {
+  width: 370px;
+  height: 59px;
+  flex-shrink: 0;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #f8f8f8;
+}
+input[type="submit"] {
+  width: 370px;
+  height: 59px;
+  flex-shrink: 0;
+  background: #5968f4;
+}
+.head {
+  margin-top: 57px;
+  margin-left: 144px;
+  margin-bottom: 57px;
+  display: flex;
+  flex-direction: row;
+}
 .circles {
   display: flex;
   justify-content: space-evenly;
@@ -145,7 +182,6 @@ h5 {
 }
 .icon {
   display: block;
-  vertical-align: middle;
 }
 h6 {
   font-family: Helvetica;
